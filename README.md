@@ -1,6 +1,8 @@
 # Cracking
 
-## View the code
+## Ex-01 WALKTHROUGH
+
+### View the code
 
 View the ELF format in hexadecimal:
 ```bash
@@ -15,7 +17,7 @@ View the ELF format in ASM:
 objdump -d > login.asm
 ```
 
-### Locating the comparison
+#### Locating the comparison
 
 Identify the comparison:
 ```assembly
